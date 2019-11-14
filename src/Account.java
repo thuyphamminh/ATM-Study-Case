@@ -7,7 +7,7 @@
  * @author AD
  * @version $Id: ATM.java, v 0.1 2019‐11‐06 9:23 AM AD Exp $$
  */
-public class ATM {
+public class Account {
 
     String name;
     String pin;
@@ -87,7 +87,7 @@ public class ATM {
         this.accountNumber = accountNumber;
     }
 
-    public ATM(String name, String pin, int balance, String accountNumber) {
+    public Account(String name, String pin, int balance, String accountNumber) {
         this.name = name;
         this.pin = pin;
         this.balance = balance;
